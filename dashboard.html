@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="InternTrack internship placement and application tracker">
+<title>Dashboard | InternTrack</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+</head>
+<body data-page="dashboard">
+<header>
+<a class="brand" href="dashboard.html">Intern<span>Track</span>
+</a>
+<nav id="nav">
+</nav>
+</header>
+<main>
+<p class="eyebrow">STUDENT PORTAL</p>
+<h1>Internship overview</h1>
+<p id="welcome">
+</p>
+<section id="stats" class="row row-cols-2 row-cols-lg-3 g-3 my-4">
+</section>
+<div class="row g-3">
+<section class="col-lg-6">
+<div class="panel">
+<h2>Application Status Overview</h2>
+<div class="chart-box">
+<canvas id="statusChart">
+</canvas>
+</div>
+</div>
+</section>
+<section class="col-lg-6">
+<div class="panel">
+<h2>Application Progress</h2>
+<p>Applications over the last 28 days</p>
+<div class="chart-box">
+<canvas id="progressChart">
+</canvas>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>InternTrack | Internship Management</footer>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js">
+</script>
+<script src="data.js">
+</script>
+<script src="charts.js">
+</script>
+<script src="app.js">
+</script>
+</body>
+</html>
